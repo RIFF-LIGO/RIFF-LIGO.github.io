@@ -1,4 +1,4 @@
-name: ks blog
+name: Hexo Blog CI/CD
 
 on:
   push:
@@ -30,7 +30,7 @@ jobs:
       - name: Install Dependencies
         run: npm install
       - name: Build
-        run: npm run build
+        run: npm run ci-build
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:

@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "build": "hexo generate",
+    "ci-build": "hexo clean && hexo generate && hexo douban -bgm",
     "clean": "hexo clean",
     "deploy": "hexo clean && hexo generate && hexo douban -bgm && hexo deploy",
     "server": "hexo server",
