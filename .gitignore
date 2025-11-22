@@ -1,0 +1,44 @@
+# Node dependencies
+node_modules/
+
+# Hexo generated files
+# Ignore generated public folder (static site output)
+public/
+
+# Hexo deploy temporary folder
+.deploy_git/
+
+# Hexo database
+db.json
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/editor
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Environment files
+.env
+.env.*
+
+# Cache
+.cache/
+dist/
+
+# Others
+*.log
+
+themes/butterfly/.git
