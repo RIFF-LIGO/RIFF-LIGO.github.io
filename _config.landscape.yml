@@ -1045,6 +1045,12 @@ inject:
   bottom:
     # - <script src="xxxx"></script>
 
+# 收录
+site_verification:
+  - name: google-site-verification
+    content: yPH-AY65kFWqoZy8Bl-celJL5KXbssnd2JKGXnLiNEM
+
+
 # CDN Settings
 # Don't modify the following settings unless you know how they work
 CDN:
