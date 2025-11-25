@@ -130,3 +130,6 @@ douban:
   #   title: ''
   #   quote: ''
   timeout: 10000 
+
+sitemap:
+  path: sitemap.xml
