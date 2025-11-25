@@ -729,8 +729,8 @@ ad:
 # --------------------------------------
 
 site_verification:
-  # - name: google-site-verification
-  #   content: xxxxxx
+  - name: google-site-verification
+    content: yPH-AY65kFWqoZy8Bl-celJL5KXbssnd2JKGXnLiNEM
   # - name: baidu-site-verification
   #   content: xxxxxxx
 
@@ -1044,11 +1044,6 @@ inject:
   head: <link rel="stylesheet" href="/css/transparent.css">
   bottom:
     # - <script src="xxxx"></script>
-
-# 收录
-site_verification:
-  - name: google-site-verification
-    content: yPH-AY65kFWqoZy8Bl-celJL5KXbssnd2JKGXnLiNEM
 
 
 # CDN Settings
