@@ -1007,6 +1007,12 @@ snackbar:
 # https://instant.page/
 instantpage: false
 
+# 收录
+site_verification:
+  - name: google-site-verification
+    content: yPH-AY65kFWqoZy8Bl-celJL5KXbssnd2JKGXnLiNEM
+
+
 # Lazyload
 # https://github.com/verlok/vanilla-lazyload
 lazyload:
